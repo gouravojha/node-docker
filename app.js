@@ -1,7 +1,7 @@
 const express = require('express')
 const app = express()
 
-app.get('/', (req, res) => res.send('Hello Dhruv , Deepak and Vikrant Sir'))
+app.get('/', (req, res) => res.send('Hello Madhur'))
 
 app.get('/data', (req, res) => res.json({
   "name" : "App is working Fine !!!"
